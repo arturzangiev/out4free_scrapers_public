@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/ubuntu/out4free_scrapers
+permissions:
+   - object: /home/ubuntu/out4free_scrapers
+     pattern: "**"
+     owner: ubuntu
+     group: ubuntu
+     mode: 755
+     type:
+       - file
